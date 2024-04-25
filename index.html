@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сапёр</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+</head>
+<body>
+<div class="container">
+    <h1 class="title">Minesweeper</h1>
+    <div class="game-container">
+        <div class="difficulty-buttons">
+            <button onclick="startGame('easy')">Лёгкий (Easy)</button>
+            <button onclick="startGame('medium')">Средний (Medium)</button>
+            <button onclick="startGame('hard')">Сложный (Hard)</button>
+        </div>
+        <div id="board"></div>
+        <div id="message"></div>
+    </div>
+    <div id="timer">Время: <span id="time">0</span> секунд(-ы)</div>
+    <div id="message"></div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

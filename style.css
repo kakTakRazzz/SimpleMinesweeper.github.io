@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.game-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.difficulty-buttons {
+    margin-bottom: 20px;
+}
+
+#board {
+    display: grid;
+    grid-gap: 1px;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.hidden {
+    background-color: #999;
+}
+
+.mine {
+    background-color: #f00;
+    color: #fff;
+}
+
+.flag {
+    background-color: #00f;
+    color: #fff;
+}
+
+.number {
+    background-color: #ddd;
+}
+
+#timer {
+    margin-top: 20px;
+}
